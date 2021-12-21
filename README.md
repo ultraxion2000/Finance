@@ -13,9 +13,9 @@
 > * Retrofit
 > * Rx java
 ### Выполнили:
-> * :octocat: Студент 2 курса Безобразов Александр
+> * :octocat: Безобразов Александр
 >    * [GitHub](https://github.com/ultraxion2000)
-> * :octocat: Студент 2  курса Герасимов Михаил
+> * :octocat: Герасимов Михаил
 >   * [GitHub](https://github.com/Dorrrke)
 
 
