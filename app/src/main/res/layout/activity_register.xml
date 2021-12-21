@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.Register">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Register"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="50sp"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textUsername"
+        android:drawableStart="@drawable/ic_baseline_supervised_user_circle_24"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/purple_200" />
+
+
+    <EditText
+        android:id="@+id/FIO"
+        android:drawableStart="@drawable/ic_baseline_supervised_user_circle_24"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FIO"
+        android:textColor="@color/purple_200" />
+
+
+
+
+    <EditText
+        android:id="@+id/textMobile"
+        android:drawableStart="@drawable/ic_baseline_mobile_friendly_24"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/FIO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:textColor="@color/purple_200" />
+
+
+    <EditText
+        android:id="@+id/textEmail"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/textMobile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/purple_200" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:text="Register"
+        app:layout_constraintTop_toBottomOf="@+id/textEmail"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/purple_200"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:text="Login ?"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister"
+        android:textColor="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

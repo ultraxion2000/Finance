@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Widget.Theme.FinanseProject.ButtonBar.Fullscreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimaryDark">@color/purple_200</item>
+        <item name="android:statusBarColor">@color/purple_200</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+</resources>
